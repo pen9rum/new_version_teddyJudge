@@ -1,0 +1,45 @@
+/* THomeworkPage.module.css */
+
+.thomeworkPageContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.sectionContainer {
+    margin-bottom: 2rem;
+    width: 70rem;
+}
+
+.sectionContent {
+    min-height: 2rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.homeworkWrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.scoreWrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.colBtnDetail {
+    height: 100px;
+    flex-basis: calc((100% / 12) * 1.6);
+    max-width: calc((100% / 12) * 1.6);
+}
+
+.btnDetail {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}

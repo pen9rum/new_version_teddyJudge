@@ -1,0 +1,36 @@
+/* Set a border and a maximum width for the homework container */
+.contestListContainer {
+    border: 2px solid black;
+    max-width: 800px;
+}
+
+/* Set dimensions for the button container */
+.colBtnAns {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    margin-left: -55px;
+}
+
+/* Set dimensions and font size for the button */
+.btnAns {
+    width: 100px;
+    height: 100%;
+    font-size: 2rem;
+    border-radius: 0px;
+}
+
+.btnReview {
+    width: 100px;
+    height: 100%;
+    font-size: 1rem;
+    border-radius: 0px;
+}
+
+.scoreText {
+    color: red;
+}
+
+.textBlack {
+    color: black;
+}

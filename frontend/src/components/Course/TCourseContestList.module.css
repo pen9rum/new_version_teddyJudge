@@ -1,0 +1,41 @@
+.courseContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.navigationContainer {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.navigationRow {
+    width: 100%;
+}
+
+.sectionContainer {
+    margin-bottom: 2rem;
+    width: 70rem;
+}
+
+.rowWidth70em {
+    width: 70em;
+}
+
+.rowMy {
+    border: 2px solid green;
+}
+
+.colMyself {
+    border: 2px solid red;
+}
+
+.btnDetail {
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}

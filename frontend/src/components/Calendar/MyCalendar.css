@@ -1,0 +1,18 @@
+.calendar-container {
+    padding: 20px;
+}
+
+.event-homework {
+    background-color: #f4c7c3; /* Light Red */
+}
+
+.event-contest {
+    background-color: #a2c7f3; /* Light Blue */
+}
+
+.event-duration {
+    background-color: #e1e1e1; /* Light Grey for duration */
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+}

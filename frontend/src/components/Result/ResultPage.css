@@ -1,0 +1,22 @@
+.result-page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.label-deduct-points {
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 10rem;
+}
+
+.row-width-70em {
+    width: 70em;
+}
+
+.red-90 {
+    color: red;
+}

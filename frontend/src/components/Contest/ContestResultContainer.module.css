@@ -1,0 +1,8 @@
+.contestResultContainer {
+    border: 2px solid black;
+    max-width: 800px;
+}
+
+.textRed {
+    color: red;
+}

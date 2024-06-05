@@ -1,0 +1,50 @@
+.navigation-row {
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item {
+    width: 130px;
+    margin: 0 1rem;
+    border-radius: 5px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #495057;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.selected {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.nav-item.selected {
+    background-color: #007bff;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    color: #495057;
+    padding: 0.25rem 0.5rem;
+    transition: color 0.3s;
+}
+
+.nav-item.selected .nav-link {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+.score-container {
+    border: 2px solid black;
+    max-width: 800px;
+}
+
+
+
+
+.col-btn-detail {
+    height: 100px;
+    flex-basis: calc((100% / 12) * 1.6);
+    max-width: calc((100% / 12) * 1.6);
+}
+
+.btn-detail {
+    width: 100px;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 0px;
+}
+
+.btn-submit {
+    width: 100px;
+    height: 100%;
+    font-size: 1.5rem;
+    border-radius: 0px;
+}
+
+.red-90 {
+    color: red;
+}

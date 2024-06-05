@@ -1,0 +1,47 @@
+.styleCheckerPageContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.navigationContainer {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.rowWidth70em {
+    width: 70em;
+}
+
+.navigationRow {
+    width: 100%;
+}
+
+.rowWidth40em {
+    width: 40em;
+}
+
+.selectCustomer {
+    width: 180px;
+    height: 80%;
+}
+
+.titleRow {
+    margin-bottom: 30px;
+}
+
+.inputBox {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.mt7 {
+    margin-top: 7px;
+}
+
+.width800 {
+    width: 800px;
+}

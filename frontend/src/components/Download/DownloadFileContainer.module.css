@@ -1,0 +1,21 @@
+.downloadFileContainer {
+    border: 2px solid black;
+    max-width: 800px;
+}
+
+
+
+/* Set dimensions for the button container */
+.colBtnGo {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+/* Set dimensions and font size for the button */
+.btnGo {
+    width: 100px;
+    height: 100%;
+    font-size: 1rem;
+    border-radius: 0px;
+}

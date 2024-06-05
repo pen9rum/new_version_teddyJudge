@@ -1,0 +1,46 @@
+.homepage-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container_home {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.title-container_home {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.title-container_home h1 {
+    font-size: 70px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.role-button {
+    font-size: 1.5rem;
+}

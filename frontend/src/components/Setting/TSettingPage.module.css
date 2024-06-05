@@ -1,0 +1,27 @@
+.settingPageContainer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.navigationContainer {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+
+.navigationRow {
+    width: 100%;
+}
+
+.rowWidth40em {
+    width: 40em;
+}
+
+.selectCustomer {
+    width: 180px;
+    height: 80%;
+}

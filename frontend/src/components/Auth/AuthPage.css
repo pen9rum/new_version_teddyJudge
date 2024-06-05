@@ -1,0 +1,40 @@
+.auth-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container_authpage {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.title-container_authpage {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.title-container_authpage h1 {
+    font-size: 70px;
+}
+
+
+.form-group_authpagh {
+    margin-bottom: 1rem;
+}
+
+.auth-switch {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowWidth20em {
+    width: 20em;
+}

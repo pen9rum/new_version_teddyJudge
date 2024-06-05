@@ -1,0 +1,47 @@
+.problem-page-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.problem-container {
+    margin-top: 2rem;
+}
+
+.problem-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.submit-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.code-input {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    min-height: 200px;
+}
+
+.col-submit {
+    text-align: left;
+}
+
+.formControl-code {
+    height: 300px;
+}
+
+.a-pdf {
+    font-size: 30px;
+}
+
+
+
+.row-70em {
+    width: 70em;
+}

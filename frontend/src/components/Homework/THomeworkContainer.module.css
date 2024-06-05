@@ -1,0 +1,27 @@
+/* Set a border and a maximum width for the homework container */
+.homeworkContainer {
+    border: 2px solid black;
+    max-width: 1000px;
+}
+
+/* Align the due date to the bottom of its container */
+.dueDate {
+    align-self: flex-end;
+}
+
+/* Set dimensions for the button container */
+.colBtnGo {
+    width: 100px;
+    height: 100px;
+    align-self: flex-end;
+    margin-left:3px;
+}
+
+/* Set dimensions and font size for the button */
+.btnGo {
+    width: 100px;
+    height: 100%;
+    font-size: 2rem;
+    border-radius: 0px;
+
+}
