@@ -87,7 +87,7 @@ const Dashboard = () => {
                 </Col>
             </Row>
 
-            <MyCalendar/>
+            <MyCalendar className="calendar"/>
         </Container>
     );
 };

@@ -638,4 +638,19 @@ api.getCalendar = async function(){
       }
 }
 
+api.getLeaderBoardContest = async function(contestName) {
+    try {        
+      const response = await this.get(`/leaderboardcontest/getRank/${contestName}`);
+      if (response.status === 200) {
+        return response.data;
+      } else {
+        console.error('Error fetching leader board homework: ', response);
+        return null;
+      }
+    } catch (error) {
+      console.error('Error fetching leader board homework: ', error);
+      return null;
+    }
+  };
+
 export default api;

@@ -49,7 +49,7 @@ const TDashboard = () => {
                 </Col>
             </Row>
 
-            <Row>
+            <Row className="row-1">
                 <Col>
                     <Button onClick={() => navigate("/thomework")}>HW</Button>
                 </Col>

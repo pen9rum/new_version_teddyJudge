@@ -36,6 +36,7 @@ const ContestContainer = ({ contestTitle, status, score, contestTotalScore, dueD
                         <Button className="btn-detail" variant="primary" onClick={() => navigate(`/contestList/${GoStr}`, { state: { contestTitle } })}>
                             Go
                         </Button>
+                        
                     ) : btnStatus === 'review' ? (
                         <Button className="btn-detail" variant="primary" onClick={() => navigate(`/contestList/${ReviewStr}`, { state: { contestTitle } })}>
                             Review
@@ -43,6 +44,11 @@ const ContestContainer = ({ contestTitle, status, score, contestTotalScore, dueD
                     ) : null}
                 </Col>
 
+                <Col className=" text-center col-btn-detail d-flex justify-content-end  p-0 ">
+                        <Button className="btn-detail" variant="primary" onClick={() => navigate(`/leaderBoardContest`, { state: { contestTitle } })}>
+                            Rank
+                        </Button>
+                </Col>
 
 
 

@@ -35,9 +35,25 @@ const MyCalendar = () => {
     endOfDay.setHours(23, 59, 59, 999); 
 
     const currentTime = new Date();
-    const foundEvent = events.find(e => 
+    const eventsOfDay = events.filter(e => 
         e.startTime <= endOfDay && e.endTime >= value
     );
+
+    if(eventsOfDay.length===0){
+        return;
+    }
+
+    if(role ==="teacher"){
+        navigate('/tcourse/list');
+        return;
+    }
+
+    if(eventsOfDay.length > 1){
+        navigate('/events', { state: { date: value, events: eventsOfDay } });
+        return;
+    }
+
+    const foundEvent = eventsOfDay[0];
 
     if (foundEvent) {
             if(role==='student'){
@@ -52,20 +68,6 @@ const MyCalendar = () => {
                         navigate('/contestList/Go', { state: { contestTitle: foundEvent.title } });
                     }else{
                         navigate('/contest');
-                    }
-                }
-            }else{
-                if(foundEvent.homework){
-                    if(foundEvent.startTime <= currentTime && foundEvent.endTime >= currentTime){
-                        navigate('/leaderBoardHomework', { state: { homeworkTitle: foundEvent.title } });
-                    }else{
-                        navigate('/thomework');
-                    }
-                }else{
-                    if(foundEvent.startTime <= currentTime && foundEvent.endTime >= currentTime){
-                        navigate('/tcontest', { state: { contestTitle: foundEvent.title } });
-                    }else{
-                        navigate('/tcontest');
                     }
                 }
             }
@@ -87,7 +89,7 @@ const MyCalendar = () => {
     };
 
     return (
-        <div>
+        <div className="calender-container">
             <Calendar
                 onChange={setDate}
                 value={date}
