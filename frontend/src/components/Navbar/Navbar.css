@@ -17,28 +17,30 @@
 }
 
 .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #495057;
     padding: 0.25rem 0.5rem;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: #fff;
     text-decoration: none;
+    background-color: #adb5bd;
+    border-radius: 5px;
 }
 
 .selected {
-    background-color: #007bff;
+    background-color: #6c757d;
     color: #fff;
 }
 
 .nav-item.selected {
-    background-color: #007bff;
+    background-color: #6c757d;
 }
 
 .nav-link {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #495057;
     padding: 0.25rem 0.5rem;
     transition: color 0.3s;

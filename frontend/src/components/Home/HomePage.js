@@ -38,8 +38,24 @@ const HomePage = () => {
             </Row>
             <Row>
                 <Col className="button-container">
-                    <Button variant="secondary" className="role-button" onClick={() => handleRoleChange('teacher')}>老師</Button>
-                    <Button variant="secondary" className="role-button" onClick={() => handleRoleChange('student')}>學生</Button>
+                    <Button variant="secondary" className="large-button" onClick={() => handleRoleChange('teacher')}>
+                        <img 
+                            src="https://cdn-icons-png.flaticon.com/512/90/90477.png" 
+                            alt="老師"
+                            className="button-icon"
+
+                        />
+                        老師
+                    </Button>
+                    <Button variant="secondary" className="large-button" onClick={() => handleRoleChange('student')}>
+                        <img 
+                            src="https://cdn-icons-png.flaticon.com/512/3462/3462157.png" 
+                            alt="學生"
+                            className="button-icon"
+
+                        />
+                        學生
+                    </Button>
                 </Col>
             </Row>
         </Container>

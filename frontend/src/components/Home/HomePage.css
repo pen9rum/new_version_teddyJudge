@@ -44,3 +44,14 @@
 .role-button {
     font-size: 1.5rem;
 }
+
+.large-button {
+    font-size: 1.5rem; /* 放大字体 */
+    padding: 10px 20px; /* 调整内边距以放大按钮 */
+}
+
+.button-icon {
+    width: 30px; /* 增大图片宽度 */
+    height: 30px; /* 增大图片高度 */
+    margin-right: 10px; /* 调整图片与文字之间的间距 */
+}
